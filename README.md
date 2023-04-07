@@ -110,7 +110,7 @@ Here is our own table:
 ```{r}
 confusionMatrix(cleanDF_test_pred, test_labels[[1]], positive = NULL,
 dnn = c("True", "Prediction"))
-```
+``` 
 
 ## Evaluation and Deployment
 
