@@ -129,3 +129,12 @@ Precision in this model is 86.27% which tells us that there is a 86.27% correct 
 
 Therefore, the Precision is good but it still have room to improve and the Recall is quite high
 which is not so good.
+
+#Error Spotted: 
+Line 32: Add link for the csv file
+Line 36: Add the str() function will return the selected object to a string format. ```{r}
+str(rawDF)
+```
+Between #80 and #81 include: normalize <- function(x) { return ((x - min(x)) / (max(x) - min(x))) }
+#112: Switch the prediction and the true
+
